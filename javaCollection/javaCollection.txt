@@ -1,0 +1,15 @@
+1)  Collection Framework
+    (-------) ds jast use hot nhi but still imp for coding ques.
+
+    a) List  - list wise data show krna h
+                ArrayList, LinkedList, Stack, Vector.
+                                              ------
+
+    b) Set   - aisa data structure jha pr sirf unique values chahiye.
+                EnumSet, HashSet, LinkedListSet, TreeSet
+                -------
+
+    c) Queue - aisa ds chahiye jha pr aap priority set kr pa rhe ho elements ki.
+                ArrayQueue, LinkedList, PriorityQueue.
+
+2)  Collection Interface
