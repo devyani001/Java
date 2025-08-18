@@ -1,0 +1,24 @@
+1) java me jo array unka ek drawback h wo dynamically apni size change nhi kr skte.
+2) suppose ek array banaya student nam ka us class me 30 bacche ha to ek baccha nya add ho gaya to hum use array me add nhi kr skte.
+    qki array ki size fixed hoti ha. unme hum size change nhi kr skte.
+
+    ex : yha pr array index starts for 0 to 29. total 30 bachhe.
+            but new student ko add krna hoga to  -->  String[] studentName = new String[31];
+            yaha par 31 size dene padegi manually jo har bar possible nhi hai acchi practice bhi nhi hai.
+
+        String[] studentName = new String[];
+        studentName[0] = "Rakesh";
+
+        studentName[29] = "Harish";
+
+        // new student
+        studentName[30] = "Raman";
+
+3) dynamic array size allocation
+    Arraylist<String> studentName = new ArrayList<>();
+    studentName.add("Rakesh");
+    --> it will add Rakesh ani size initially suppose n = 10 hoti
+        size = n = 10;
+        jb 11th element add kroge to,
+        size = n + n/2 + 1;     --> dynamically evdhi size bnte
+        aur purane wale array ko nye wale array me copy bhi kr dega.
