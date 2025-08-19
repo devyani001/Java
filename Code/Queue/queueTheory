@@ -1,2 +1,29 @@
 Queue - FIFO
 first-in, first-out
+
+1) front-end    - delete elements
+2) rear-end     - insert elements
+
+Implemented by using,
+1) ArrayList
+2) LinkedList
+3) PriorityQueue
+
+
+ArrayList
+==========
+
+1) offer()
+    a) offer() - insert element return true or false
+    b) add()   - insert element return true if successfully inserted, otherwise throws an exception.
+                 if u want system or app should crash if not inserted then u can use this.
+                    
+
+2) poll()
+    a) poll()   - delete element return that element, u can print it also otherwise returns "NULL" if the Queue is empty. 
+    b) remove() - returns and removes head of Queue otherwise throws exception if Queue is empty.
+
+
+3) peek()
+    a) peek()    - returns head element of Queue otherwise returns "NULL" if Queue is empty.
+    b) element() - returns head element of Queue otherwise throws "exception" if Queue is empty

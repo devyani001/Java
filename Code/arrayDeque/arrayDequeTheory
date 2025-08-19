@@ -1,0 +1,6 @@
+ArrayDeque
+===========
+--> ArrayDeque is called as doubly entity.
+--> aisi Queue banayi h, jisme aage bhi element dal skte ho piche bhi element dal skte ho.
+--> aur dono side peek() phi kr skte ho
+--> used in sliding window, aap age se aur piche se dono side se slide kr skte ho
